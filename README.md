@@ -7,42 +7,42 @@ The **Portfolio Monitoring Dashboard** is an interactive real-time monitoring to
 
 **Key Performance Indicators (KPIs)**: The dashboard visualizes essential financial metrics such as revenue, EBITDA, cash flow, and debt levels, offering a comprehensive snapshot of portfolio performance.
 
-## Alerts: The system identifies underperformance or deviations from forecasts by analyzing financial data. Alerts are triggered for companies that fall below forecasted targets.
+**Alerts**: The system identifies underperformance or deviations from forecasts by analyzing financial data. Alerts are triggered for companies that fall below forecasted targets.
 
-## Dynamic Filters: Users can filter and drill down on specific companies in the portfolio, ensuring customized views of financial performance.
+**Dynamic Filters**: Users can filter and drill down on specific companies in the portfolio, ensuring customized views of financial performance.
 
-## Visualizations: Interactive charts, such as revenue trends and EBITDA vs. cash flow comparisons, enable users to quickly grasp financial trends and relationships.
+**Visualizations**: Interactive charts, such as revenue trends and EBITDA vs. cash flow comparisons, enable users to quickly grasp financial trends and relationships.
 
 ## Technologies
-Python: The backend is powered by Python, utilizing libraries such as Dash and Streamlit for building interactive and responsive user interfaces.
+**Python**: The backend is powered by Python, utilizing libraries such as Dash and Streamlit for building interactive and responsive user interfaces.
 
-## Plotly: Data visualization is handled by Plotly Express, creating dynamic and engaging charts that reflect key financial trends.
+**Plotly**: Data visualization is handled by Plotly Express, creating dynamic and engaging charts that reflect key financial trends.
 
-## SQLite: SQLite is used as the lightweight relational database for storing and retrieving financial data for portfolio companies.
+**SQLite**: SQLite is used as the lightweight relational database for storing and retrieving financial data for portfolio companies.
 
-## Streamlit: Streamlit is used for building the web application interface, allowing for rapid development and deployment.
+**Streamlit**to : Streamlit is used for building the web application interface, allowing for rapid development and deployment.
 
-## SQL: SQL is utilized to query and manage data stored in the database, ensuring seamless interaction with the portfolio's financial data.
+**SQL**: SQL is utilized to query and manage data stored in the database, ensuring seamless interaction with the portfolio's financial data.
 
 ## Installation
 To run this project locally, ensure that you have the required dependencies installed. You can set up the environment by following these steps:
 
 1. Clone the repository:
 
-`git clone https://github.com/your-username/portfolio-monitoring-dashboard.git`
-`cd portfolio-monitoring-dashboard`
+    `git clone https://github.com/your-username/portfolio-monitoring-dashboard.git`
+    `cd portfolio-monitoring-dashboard`
 
 2. Install the required packages:
 
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
 3. Set up the SQLite database:
 
-Make sure the database is properly populated with financial data from portfolio companies. The schema is defined in the code, and sample data can be inserted using SQL queries.
+    Make sure the database is properly populated with financial data from portfolio companies. The schema is defined in the code, and sample data can be inserted using SQL queries.
 
 4. Run the dashboard:
 
-`streamlit run app.py`
+    `streamlit run app.py`
 
 5. Open the application in your web browser, typically at `http://localhost:8501`.
 
@@ -65,7 +65,3 @@ Contributions are welcome! If you'd like to contribute to the development of thi
 3. Commit your changes
 4. Push to your fork
 5. Create a pull request with a clear description of your changes
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
